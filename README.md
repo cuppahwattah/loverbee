@@ -31,10 +31,8 @@ For Software:
 - JavaScript
 
 For Hardware:
-- [A standard laptop (and a dream)]
+- A standard laptop (and a dream)
 
-### Implementation
-For Software:
 # Installation
 [```bash
 git clone https://github.com/your-repo/lover-bee
@@ -43,15 +41,14 @@ open index.html]
 
 
 ### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 
 ![Screenshot1](ss.png)
-*Add caption explaining what this shows*
+bee!
 
 ![Screenshot2](trailss.png)
-*Add caption explaining what this shows*
+bee following you!
 
 
 ## Team Contributions
