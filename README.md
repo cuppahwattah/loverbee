@@ -1,16 +1,16 @@
 <img width="3188" height="1202" alt="frame (3)" src="banner.png" />
 
 
-# Lover bee 🐝🍯🌸
+# Lover Bee 🐝🍯🌸
 
 
 ## Basic Details
-### Team Name: ByteABiscuit
+### Team Name: ByteABiscuit 🍪
 
 
 ### Team Members
-- Team Lead: Fathima Rida PS - Cochin university
-- Member 2: Devipriya PR - Cochin university
+- Team Lead: Fathima Rida PS - Cochin University Of Science And Technology
+- Member 2: Devipriya PR - Cochin University Of Science And Technology
 -
 
 ### Project Description
@@ -20,7 +20,7 @@ Lover bee 🐝 is a fun little project where a bee follows your cursor around li
 Our buzzing bee just follows your cursor around, making your screen way more fun and a bit less boring. It doesn’t fix any real problems, but hey, sometimes you just need a cute little bee to keep you company while you work or procrastinate.
 
 ### The Solution (that nobody asked for)
-We built a bee. That follows your cursor. That’s it. That’s the whole thing. 🐝🖱️
+We built a bee. That follows your cursor. That’s it. That’s the whole thing :) 🐝🖱️
 
 Wherever your mouse goes, the bee goes. It buzzes around, does nothing useful, and brings absolutely zero productivity benefits. But it looks cute, makes people smile, and turns boring computer time into ✨buzz✨ time.
 
@@ -32,17 +32,16 @@ For Software:
 - JavaScript
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [A standard laptop (and a dream)]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[```bash
+git clone https://github.com/your-repo/lover-bee
+cd lover-bee
+open index.html]
 
-# Run
-[commands]
 
 ### Project Documentation
 For Software:
@@ -55,41 +54,11 @@ For Software:
 ![Screenshot2](trailss.png)
 *Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Fathima Rida P S]: [building site and vibes]
+- [Devipriya P R ]: [building site and vibes]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
