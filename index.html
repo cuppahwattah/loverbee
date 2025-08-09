@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bee Follows Cursor with Trail</title>
+  <style>
+    #bee-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 9999;
+    }
+    #trail-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    #bee-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+    }
+    .bee {
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      pointer-events: none;
+    }
+    .trail {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background: rgba(255, 215, 0, 0.5);
+      border-radius: 50%;
+      pointer-events: none;
+      transition: opacity 0.5s ease;
+    }
+  </style>
+</head>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-height: 100vh;
+    background: #fffbe6 url('background.jpg') center center / cover no-repeat;
+  }
+</style>
+<body>
+  <audio id="loverbee-audio" src="Connie-Francis---Pretty-Little-Baby.mp3" autoplay loop controls style="position:absolute;bottom:16px;left:16px;z-index:200;background:rgba(255,255,255,0.1);border-radius:8px;"></audio>
+  <div style="position: absolute; top: 24px; left: 310px; width: auto; text-align: left; z-index: 100;">
+  <h1 style="font-family: 'Dancing Script', cursive; font-size: 2.5rem; color: #e6b800; margin: 0; text-shadow: 1px 1px 4px #fffbe6; font-style: italic;">Lover Bee</h1>
+  <p style="font-family: 'Dancing Script', cursive; font-size: 1.2rem; color: #978242; margin: 8px 0 0 0; text-shadow: 1px 1px 2px #fffbe6; font-style: italic;">I don’t chase… unless you’re the one. Then I’m flyin’!</p>
+  </div>
+  <div id="bee-container">
+    <div id="trail-layer"></div>
+    <div id="bee-layer"></div>
+  </div>
+
+  <script>
+    const trailLayer = document.getElementById('trail-layer');
+
+    const beeLayer = document.getElementById('bee-layer');
+
+  // Use bee.png image instead of SVG
+  beeLayer.innerHTML = '';
+  const beeImg = document.createElement('img');
+  beeImg.src = 'bee.png';
+  beeImg.className = 'bee';
+  beeImg.style.position = 'absolute';
+  beeImg.style.width = '48px';
+  beeImg.style.height = '48px';
+  beeImg.style.pointerEvents = 'none';
+  beeLayer.appendChild(beeImg);
+  const bee = beeImg;
+
+    let beeX = window.innerWidth / 2;
+    let beeY = window.innerHeight / 2;
+    let targetX = beeX;
+    let targetY = beeY;
+
+    window.addEventListener('mousemove', (e) => {
+      targetX = e.clientX;
+      targetY = e.clientY;
+    });
+
+    function moveBee() {
+      beeX += (targetX - beeX) * 0.15;
+      beeY += (targetY - beeY) * 0.15;
+
+      bee.style.transform = `translate(${beeX - 24}px, ${beeY - 24}px)`;
+
+      const trail = document.createElement('div');
+      trail.className = 'trail';
+      trail.style.width = '12px';
+      trail.style.height = '12px';
+      trail.style.left = `${beeX - 12}px`;
+      trail.style.top = `${beeY - 12}px`;
+      trailLayer.appendChild(trail);
+
+      setTimeout(() => {
+        trail.style.opacity = '0';
+        setTimeout(() => trailLayer.removeChild(trail), 500);
+      }, 400);
+
+      requestAnimationFrame(moveBee);
+    }
+
+    moveBee();
+  </script>
+</body>
+</html>
