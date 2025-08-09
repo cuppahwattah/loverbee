@@ -50,7 +50,7 @@ bee!
 ![Screenshot2](trailss.png)
 bee following you!
 
-![video Recording](
+![video Recording](record)
 
 ## Team Contributions
 - [Fathima Rida P S]: [building site and vibes]
