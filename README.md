@@ -52,7 +52,7 @@ For Software:
 ![Screenshot1](ss.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](trailss.png)
+![Screenshot2](trail ss.png)
 *Add caption explaining what this shows*
 
 # Diagrams
