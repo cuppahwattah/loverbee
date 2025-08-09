@@ -1,20 +1,20 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Lover bee 🐝🍯🌸
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: ByteABiscuit
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Fathima Rida PS - Cochin university
+- Member 2: Devipriya PR - Cochin university
+-
 
 ### Project Description
-[2-3 lines about what your project does]
+Lover bee 🐝 is a fun little project where a bee follows your cursor around like its's totally in love with you.It's just a silly idea that turned into something kind of cute -- no big purpose,just a bit of fun and some smooth movement.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
