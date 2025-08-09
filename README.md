@@ -9,9 +9,8 @@
 
 
 ### Team Members
-- Team Lead: Fathima Rida PS - Cochin University Of Science And Technology
+- Member 1: Fathima Rida PS - Cochin University Of Science And Technology
 - Member 2: Devipriya PR - Cochin University Of Science And Technology
--
 
 ### Project Description
 Lover bee 🐝 is a fun little project where a bee follows your cursor around like its's totally in love with you.It's just a silly idea that turned into something kind of cute -- no big purpose,just a bit of fun and some smooth movement.
