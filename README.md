@@ -17,18 +17,19 @@
 Lover bee 🐝 is a fun little project where a bee follows your cursor around like its's totally in love with you.It's just a silly idea that turned into something kind of cute -- no big purpose,just a bit of fun and some smooth movement.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Our buzzing bee just follows your cursor around, making your screen way more fun and a bit less boring. It doesn’t fix any real problems, but hey, sometimes you just need a cute little bee to keep you company while you work or procrastinate.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We built a bee. That follows your cursor. That’s it. That’s the whole thing. 🐝🖱️
+
+Wherever your mouse goes, the bee goes. It buzzes around, does nothing useful, and brings absolutely zero productivity benefits. But it looks cute, makes people smile, and turns boring computer time into ✨buzz✨ time.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML
+- CSS
+- JavaScript
 
 For Hardware:
 - [List main components]
